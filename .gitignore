@@ -1,0 +1,45 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+**/secrets.toml
+*.pem
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database files and exports
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# MovieLens files: download separately and follow the dataset README/license
+# GroupLens generally does not permit public redistribution of MovieLens datasets.
+datasets/movies.csv
+datasets/ratings.csv
+
+# Local poster/image folders and generated cache
+pictures/
+posters/
+images/
+datasets/pictures/
+datasets/posters/
+datasets/images/
+datasets/poster_cache.json
+
+# Logs
+*.log
